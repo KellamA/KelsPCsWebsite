@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Building Business</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Kel's PCs</h1>
+        <p>Your trusted source for custom-built PCs</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            <!-- Replace this text with your company description -->
+            My goal is to deliver you the absolute best performance I can at an affordable price. If you don't see a PC at a price point that suits your budget, feel free to reach out to me at kellamadams@gmail.com and I can spec one out for you within your budget!
+        </p>
+    </section>
+
+    <!-- Inventory Section -->
+    <section id="inventory">
+        <h2>Our Inventory</h2>
+
+        <!-- Rtx 2080 Super R5 5600G -->
+        <div class="pc-item">
+            <div class="pc-slideshow">
+                <img src="pc1-1.jpg" class="active" alt="PC 1 Image 1">
+                <img src="pc1-2.jpg" alt="PC 1 Image 2">
+                <img src="pc1-3.jpg" alt="PC 1 Image 3">
+                <button class="prev" onclick="prevSlide(this)">❮</button>
+                <button class="next" onclick="nextSlide(this)">❯</button>
+            </div>
+            <h3>RTX 2080 Super & R5 5600G</h3>
+            <p><strong>Specs:</strong> Ryzen 5 5600G, RTX 2080 Super, 16GB RAM, 1TB SSD</p>
+            <p><strong>Price:</strong> $800</p>
+        </div>
+
+        <!-- Gtx 1060 6GB R5 5600G -->
+        <div class="pc-item">
+            <div class="pc-slideshow">
+                <img src="pc2-1.jpg" class="active" alt="PC 2 Image 1">
+                <img src="pc2-2.jpg" alt="PC 2 Image 2">
+                <img src="pc2-3.jpg" alt="PC 2 Image 3">
+                <button class="prev" onclick="prevSlide(this)">❮</button>
+                <button class="next" onclick="nextSlide(this)">❯</button>
+            </div>
+            <h3>GTX 1060 6GB & R5 5600G</h3>
+            <p><strong>Specs:</strong> Ryzen 5 5600G, GTX 1060 6GB, 16GB RAM, 1TB SSD</p>
+            <p><strong>Price:</strong> $550</p>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Kel's PCs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
