@@ -48,14 +48,15 @@ section {
 .pc-slideshow {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: auto; /* Allow the height to adjust based on the image */
     overflow: hidden;
+    background-color: #f0f0f0; /* Optional: Add a background color */
 }
 
 .pc-slideshow img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%; /* Images take up the full width */
+    height: auto; /* Height adjusts automatically to maintain aspect ratio */
+    object-fit: contain; /* Prevent cropping and fit image inside the box */
     display: none;
 }
 
